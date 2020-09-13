@@ -1,7 +1,7 @@
-/*
+/***
 Hint: The java.util.Scanner class offers a method for capturing a string from the console.
 String str = new Scanner(System.in).nextInt();
-*/
+***/
 import java.util.Scanner;
 
 public class BoxVolume
