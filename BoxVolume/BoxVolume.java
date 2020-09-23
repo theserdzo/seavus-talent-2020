@@ -1,13 +1,9 @@
-/***
-Hint: The java.util.Scanner class offers a method for capturing a string from the console.
-String str = new Scanner(System.in).nextInt();
-***/
 import java.util.Scanner;
 
-public class BoxVolume
-{
- public static void main(String[] args)
- {
+public class BoxVolume{
+
+ public static void main(String[] args){
+
    int width, height, depth;
    int volume;
    Scanner scan = new Scanner(System.in);
@@ -26,5 +22,7 @@ public class BoxVolume
    System.out.println("\nBox Dimensions: " );
    System.out.println("Height: " + height + ", Width: " + width + " and Depth: " + depth);
    System.out.println("\nBox Volume: " + volume);   
+ 
  } 
+
 }
