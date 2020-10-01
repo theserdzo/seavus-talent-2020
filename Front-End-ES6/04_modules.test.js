@@ -1,8 +1,8 @@
-import * as Mathy from '../common/Mathy';
-import * as IndexImport from '../common/index';
+import * as Mathy from './common/Mathy';
+import * as IndexImport from './common/index';
 
 // WRITE YOUR IMPORT STATEMENTS HERE
-import { sqrt as mySqrt, square as mySquare } from '../common/Mathy';
+import { sqrt as mySqrt, square as mySquare } from './common/Mathy';
 import lodash from 'lodash';
 
 test('can import Mathy', () => {
